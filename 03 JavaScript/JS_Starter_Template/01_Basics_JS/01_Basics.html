@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="click">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Basics</title>
+    <link rel="stylesheet" href="01_styles.css">
+</head>
+
+<body ng-controller="clickCtrl">
+
+    <h2>JavaScript Basics</h2>
+    <div>
+        <h1 id="display"></h1>
+    </div>
+    <div>
+        <input type="text" value="name1">
+        <input type="text" value="name2">
+        <input type="text" value="name3">
+    </div>
+    <form action="click()">
+        <label>select gender</label>
+        <input ng-click="male" type="radio" value="male" name="gender" id="male" >male
+        <input ng-model="female" type="radio" value="female" name="gender" id="female">female
+    </form>
+<script src="angular.min.js"></script>
+<script src="01_script.js"></script>
+</body>
+</html>

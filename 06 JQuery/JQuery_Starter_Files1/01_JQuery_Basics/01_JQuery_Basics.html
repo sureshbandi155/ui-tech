@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="01_styles.css">
+    <title>JQuery Basics</title>
+    <style>
+        #textarea{
+            height: 200px;
+            border-radius: 20px;
+            font-size: 30px;
+        }
+        #textarea:hover{
+            border: 2px solid teal;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">JQuery Basics</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <h2>JQuery Basics</h2>
+
+    <!-- paragraph selection , button , input fields -->
+<div>
+    <p class="lead" onclick="$(this).slideUp()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi consectetur hic in ipsum itaque iusto magni, nulla quae quod quos sed suscipit voluptas. Cupiditate dignissimos ex fuga itaque recusandae similique vero. Ex exercitationem nam similique vitae. Consectetur corporis, dignissimos dolor dolorem impedit iusto, nostrum, possimus sed suscipit vitae voluptate!</p>
+</div>
+    <!--internal way-->
+    <div class="card" id="green-card">
+        <div class="card-body bg-success text-white">
+            <h3>UI Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis consequatur culpa cum delectus dolor doloribus error eveniet, ipsa laborum, molestiae nesciunt nisi nobis odio quo quos sint. Amet architecto asperiores aut commodi cum cumque dicta expedita facere facilis fugit iusto modi ratione, sequi, sit sunt tempora tenetur veniam veritatis?</p>
+        </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-success" id="hide">HIDE</button>
+    </div>
+    <div class="card" id="ui">
+        <div class="card-body bg-primary text-white">
+            <h3>UI development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium amet corporis iste labore repellendus unde. Illo molestias nulla quas suscipit temporibus? Ab accusamus aliquid corporis culpa cumque deleniti dolor eius error iure laboriosam molestiae neque odit omnis optio perferendis, quia quis ratione reiciendis sint unde veniam vitae voluptate voluptates!</p>
+
+        </div>
+    </div>
+
+    <div>
+        <button type="button" class="btn btn-success" id="ui-deve">UI development</button>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="col-md-12">
+                        <div class="card-header bg-teal text-white">
+                            <h3>SMS App</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <textarea type="text" class="form-control" maxlength="100"
+                                          placeholder="Type Here" rows="5" cols="25" id="textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-teal text-white">
+                            <h4>The Remaining Charactera <span id="sms-count" class="font-weight-bold">100</span></h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card-body bg-info text-white form-group">
+        <input type="text" id="text" placeholder="enter your "class="form-control">
+        <div id="revese" class="text-white"></div>
+    </div>
+
+</div>
+
+
+<div style="margin-top:500px;"></div>
+
+
+<!-- BODY ENDS -->
+<script src="../bootstrap/js/fontawesome-all.js"></script>
+<script src="../bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/mdb.min.js"></script>
+<script src="01_app.js"></script>
+<script>
+    $('#green-card').click(function () {
+        $(this).fadeOut(2000);
+    });
+</script>
+</body>
+</html>
+

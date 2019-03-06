@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    float: left;
+    width: 400px;
+    background-color: rgb(255,255,255);
+}
+.fa fa-user-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+}
+header {
+    background-color: rgb(238,238,238);
+    width: 400px;
+}
+input[type="search"] {
+    border: none;
+    box-shadow: none;
+}
+#header {
+    background-color: rgb(238,238,238);
+
+}
+
+/*#leftCol {
+    !*position: fixed;*!
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}*/
+#flex-box {
+    width: 400px;
+    top: 0;
+    right: 0;
+    position: sticky;
+
+
+}
+#header1 {
+    background-color: rgb(238,238,238);
+
+}

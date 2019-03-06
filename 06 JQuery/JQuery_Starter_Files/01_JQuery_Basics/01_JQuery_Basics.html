@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="01_styles.css">
+    <title>JQuery Basics</title>
+    <style>
+        .my-text{
+            height: 200px;
+            border-radius: 20px;
+            font-size: 30px;
+        }
+        .my-text:focus{
+            border: 2px solid teal;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">JQuery Basics</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <h2>JQuery Basics</h2>
+
+    <!-- paragraph selection , button , input fields -->
+<div>
+    <p class="lead" onclick="$(this).slideUp()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias delectus, placeat porro praesentium reprehenderit repudiandae voluptate. Ad ipsa labore molestiae nostrum quo. Consequuntur cupiditate iste iure labore magni non nulla perferendis qui quos tempore? Aliquam autem consectetur cupiditate delectus ducimus inventore quaerat quibusdam tempora! Eos error facilis laborum nihil quos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem corporis, dolorem ea maxime natus nemo obcaecati odit quia sint ut.d</p>
+</div>
+    <!--inline way-->
+    <div class="card" id="green">
+        <div class="card-body bg-success">
+            <h3>UI Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta dignissimos dolor dolore eligendi explicabo harum illo magni modi mollitia nemo nesciunt, non qui quidem quo recusandae repellendus rerum sequi, sint tempora. Autem dignissimos ea explicabo facilis ipsam magni minima, nisi nostrum numquam placeat quam quibusdam quo recusandae suscipit tempora?</p>
+        </div>
+    </div>
+    <!--external way-->
+    <button type="button" class="btn btn-primary" id="hide">HIDE</button>
+    <div class="card bg-primary" id="card">
+        <div class="card-body">
+            <h3>UI development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium odio praesentium recusandae? Deserunt dignissimos dolores dolorum ex labore magni molestias quidem rerum saepe voluptatum. Accusamus aut commodi consequatur consequuntur corporis cum est facilis fugiat inventore magni maxime natus neque nobis omnis quae, quo recusandae reiciendis rerum tenetur vero voluptate voluptatem.</p>
+        </div>
+    </div>
+    <!--button-->
+    <button type="button" class="btn btn-success" id="ui">UI Technology</button>
+    <!--sms -->
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-teal text-white">
+                <h3>SMS App</h3>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <textarea id="text" rows="5" cols="25" placeholder="typehere...." maxlength="100" class="form-control my-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="card-body bg-teal text-white">
+                <h3>The Remaining Characters <span  id="sms-count" class="text-white font-weight-bold">100</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <!--reverse-->
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body bg-warning text-white">
+                <div class="form-group">
+                    <input type="text" class="form-control text-white" placeholder="user name" id="user-name">
+                </div>
+                <div class="card-footer bg-white">
+                    <pre id="user-text"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="margin-top:500px;"></div>
+
+
+<!-- BODY ENDS -->
+<script src="../bootstrap/js/fontawesome-all.js"></script>
+<script src="../bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/mdb.min.js"></script>
+<script src="01_app.js"></script>
+<script>
+    $('#green').click(function () {
+        $(this).fadeOut(2000);
+    })
+</script>
+</body>
+</html>
+

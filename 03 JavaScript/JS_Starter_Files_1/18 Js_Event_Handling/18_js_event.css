@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+section{
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 15px black;
+    outline: none;
+}
+button:hover{
+    opacity: 0.8;
+}
+#gm{
+    background-color: forestgreen;
+}
+#ga{
+    background-color: blue;
+}
+#ge{
+    background-color: orangered;
+}
+#gn{
+    background-color: darkred;
+}
+
+section img{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+#imgButtons button{
+    border-radius: 10px;
+    background-color: teal;
+}
+input[type='text']{
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    height: 35px;
+}

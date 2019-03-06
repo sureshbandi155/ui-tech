@@ -1,0 +1,90 @@
+iframe{
+    width: 100%;
+}
+/*
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 10px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.text-teal{
+    color:#00796b;
+}
+.my-text-area{
+    height: auto;
+    border-radius: 15px;
+}
+.my-text-area:focus{
+    border: 2px solid cornflowerblue;
+}
+.card-img{
+    margin-top: -50px;
+}
+.trainer-card{
+    transition: all 0.5s;
+    box-shadow: 0 0 15px teal !important;
+}
+.trainer-card:hover{
+    background-color: #00796b;
+    cursor: pointer;
+    !*transform: translateY(-10px);*!
+    transform: perspective(500px) rotateY(20deg);
+}
+.trainer-card:hover h3 , .trainer-card:hover p{
+    color: white;
+}
+.trainer-card:hover .t_icon{
+    color: white;
+}
+
+*/
+hr.star-light,
+hr.star-dark {
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 0.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:visible;
+}
+
+hr.star-light:after,
+hr.star-dark:after {
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 0.25em;
+    content: '\f005';/*
+    font-family: "Font Awesome 5 Free";*/
+    font-weight: 900;
+    font-size: 2em;
+    overflow:visible;
+}
+
+hr.star-light {
+    border-color: #fff;
+    overflow:visible;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18BC9C;
+    overflow:visible;
+}
+
+hr.star-dark {
+    border-color: #2C3E50;
+    overflow:visible;
+}
+
+hr.star-dark:after {
+    color: #2C3E50;
+    background-color: white;
+    overflow:visible;
+
+}

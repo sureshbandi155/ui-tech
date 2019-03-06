@@ -1,0 +1,36 @@
+.carousel .carousel-indicators li {
+    max-width: 30px;
+    height: 10px;
+    border-radius: 0% !important;
+    cursor: pointer;
+}
+.text-teal{
+    color:#00796b;
+}
+.my-text-area{
+    height: auto;
+    border-radius: 15px;
+}
+.my-text-area:focus{
+    border: 2px solid cornflowerblue;
+}
+.card-img{
+    margin-top: -50px;
+}
+.trainer-card{
+    transition: all 0.5s;
+    box-shadow: 0 0 15px teal !important;
+}
+.trainer-card:hover{
+    background-color: #00796b;
+    cursor: pointer;
+    /*transform: translateY(-10px);*/
+    transform: perspective(500px) rotateY(20deg);
+}
+.trainer-card:hover h3 , .trainer-card:hover p{
+    color: white;
+}
+.trainer-card:hover .t_icon{
+    color: white;
+}
+

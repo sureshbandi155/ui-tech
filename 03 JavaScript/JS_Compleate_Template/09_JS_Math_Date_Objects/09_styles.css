@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+h2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+}
+div{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#digital-clock{
+    background-image: url("../img/forest.jpg");
+    width: 300px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    line-height: 15px;
+    box-shadow: 0 0 15px black;
+    border: 5px solid white;
+}
+#time{
+    font-family: "Old English Text MT",sans-serif;
+    font-size: 40px;
+}

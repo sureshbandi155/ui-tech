@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Grid System in Bootstrap4</title>
+    <style>
+        div{
+
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Grid System in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container  mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- AUTO LAYOUT COLUMNS -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Col</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at delectus distinctio dolore doloribus et ex excepturi explicabo fugit inventore ipsa ipsam, maiores natus necessitatibus nihil nobis odit optio quaerat similique tempora, temporibus ullam veritatis voluptatibus? Autem esse et, eveniet illo mollitia, nostrum repellat suscipit tempore ullam vero voluptas voluptatum?</p>
+            </div>
+            <div class="col">
+                <h2>Col</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at blanditiis dicta, labore, molestias nihil nobis numquam officiis quaerat quidem similique veniam! Ad adipisci consectetur consequuntur corporis cumque dolores doloribus eligendi enim exercitationem iste laboriosam libero magnam maxime modi natus nesciunt non numquam perferendis placeat quidem, rem reprehenderit sint tenetur?</p>
+            </div>
+            <div class="col">
+                <h2>Col</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at blanditiis dicta, labore, molestias nihil nobis numquam officiis quaerat quidem similique veniam! Ad adipisci consectetur consequuntur corporis cumque dolores doloribus eligendi enim exercitationem iste laboriosam libero magnam maxime modi natus nesciunt non numquam perferendis placeat quidem, rem reprehenderit sint tenetur?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- RESPONSIVE CLASSES -->
+    <div class="container">
+        <div class="row text-white">
+            <div class="col-sm-6 col-md-4  bg-primary">
+                <h2>Col-md-4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci animi aperiam asperiores at autem blanditiis cum cumque delectus, dolorem doloribus enim eos ex expedita explicabo fuga, fugit minus molestias nemo nihil praesentium quam quidem quos, reiciendis sed soluta ullam ut veniam vitae voluptates. Deserunt error incidunt pariatur perferendis reiciendis.</p>
+            </div>
+            <div class="col-sm-6 col-md-8  bg-warning">
+                <h2>Col-md-8</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci animi aperiam asperiores at autem blanditiis cum cumque delectus, dolorem doloribus enim eos ex expedita explicabo fuga, fugit minus molestias nemo nihil praesentium quam quidem quos, reiciendis sed soluta ullam ut veniam vitae voluptates. Deserunt error incidunt pariatur perferendis reiciendis.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- NESTING GRIDS -->
+    <div class="container mt-5">
+        <div class="row text-white">
+            <div class="col-sm-6 col-md-4  bg-primary">
+                <h2>Col-md-4</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci animi aperiam asperiores at autem blanditiis cum cumque delectus, dolorem doloribus enim eos ex expedita explicabo fuga, fugit minus molestias nemo nihil praesentium quam quidem quos, reiciendis sed soluta ullam ut veniam vitae voluptates. Deserunt error incidunt pariatur perferendis reiciendis.</p>
+            </div>
+            <div class="col-sm-6 col-md-8  bg-warning">
+                <h2>Col-md-8</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci animi aperiam asperiores at autem blanditiis cum cumque delectus, dolorem doloribus enim eos ex expedita explicabo fuga, fugit minus molestias nemo nihil praesentium quam quidem quos, reiciendis sed soluta ullam ut veniam vitae voluptates. Deserunt error incidunt pariatur perferendis reiciendis.</p>
+                <div class="row">
+                    <div class="col-md-6 bg-teal">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur earum eius eum explicabo ipsa laudantium molestiae quos totam! Animi aspernatur aut cum dolor eaque eos iure nesciunt odio quasi quis.</p>
+                    </div>
+                    <div class="col-md-6 bg-danger">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi earum itaque iusto perferendis sint? Distinctio dolore dolores facere incidunt magnam modi non odio pariatur quae qui, quis quos repellendus, similique!</p>
+                        <div class="row ">
+                            <div class="col-md-6 bg-dark">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda aut corporis doloremque, ea itaque odio officiis reprehenderit sunt suscipit.</p>
+                            </div>
+                            <div class="col-md-6 bg-info">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda aut corporis doloremque, ea itaque odio officiis reprehenderit sunt suscipit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+<section class="p-4 bg-dark text-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>The Java Course</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis eaque, ex labore quidem sunt. A atque cum deserunt dolore, dolorem eveniet excepturi harum illum ipsam minus, molestias nisi quia quos recusandae reiciendis, sapiente sunt. Beatae dicta explicabo quo rerum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, illo nihil. Ab blanditiis eos et facilis maxime nulla sapiente veritatis.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="03_Corporate%20Website/img/java.jpg" class="img-fluid img-thumbnail">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-4 ">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="03_Corporate%20Website/img/java.jpg" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-6">
+                <h2>The Java Course</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis eaque, ex labore quidem sunt. A atque cum deserunt dolore, dolorem eveniet excepturi harum illum ipsam minus, molestias nisi quia quos recusandae reiciendis, sapiente sunt. Beatae dicta explicabo quo rerum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, illo nihil. Ab blanditiis eos et facilis maxime nulla sapiente veritatis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+</body>
+</html>

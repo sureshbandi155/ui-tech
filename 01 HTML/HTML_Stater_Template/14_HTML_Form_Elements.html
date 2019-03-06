@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        form{
+            background-color: forestgreen;
+            width: 500px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+    <form action="">
+        <label for="user">Username</label>
+        <input type="text" id="user">
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass"><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label>Username</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>password</label>
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+                <td>
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <form action="">
+        <label>select techa: </label>
+        <select>
+            <option>Htmlgfhfhf</option>
+            <option>Html</option>
+            <option>Html</option>
+            <option>Html</option>
+        </select>
+    </form>
+
+
+    <!--optgroup-->
+    <h2>optgroup</h2>
+    <form action="">
+        <label for="">select tech</label>
+        <select name="" id="">
+            <optgroup label="languages">
+                <option value="">htmlqqq</option>
+                <option value="">html</option>
+                <option value="">html</option>
+            </optgroup>
+            <optgroup label="script">
+                <option value="">html</option>
+                <option value="">html</option>
+                <option value="">javaScript</option>
+            </optgroup>
+        </select>
+    </form>
+
+
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <form action="">
+        <label for="tea">Your messages</label>
+        <textarea name="" id="tea" cols="30" rows="10"></textarea>
+    </form>
+
+
+    <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+    <form>
+        <label for="technology">Datalist tech</label>
+        <input list="technology">
+        <datalist id="technology">
+            <option>html</option>
+            <option>csss</option>
+            <option>javaScript</option>
+            <option>jQuery</option>
+            <option>Angular js</option>
+        </datalist>
+        <input type="submit" value="SignIn">
+    </form>
+
+
+
+
+</body>
+</html>

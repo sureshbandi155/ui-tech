@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Vertical Navigation</title>
+    <style>
+        body{
+            background: white url("img/image3.jpeg") no-repeat fixed bottom;
+        }
+        aside{
+            width: 250px;
+            float: left;
+            text-align: center;
+
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li:nth-child(even){
+            background-color: lightcoral;
+            border-radius: 50px;
+        }
+        aside ul li:nth-child(odd){
+            background-color: lightgreen;
+            border-radius: 50%;
+        }
+        aside ul li a{
+            text-decoration: none;
+            display: block;
+            padding: 14px 25px;
+            font-size: 20px;
+        }
+        aside ul li a:hover{
+            background-color: lightcyan;
+            border-radius: inherit;
+        }
+        aside ul li a.active{
+            background-color: yellow;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <ul>
+            <li>
+                <a href="#" class="active">HTML</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">JavaScript</a>
+            </li>
+            <li>
+                <a href="#">JQuery</a>
+            </li>
+            <li>
+                <a href="#">AJAX</a>
+            </li>
+            <li>
+                <a href="#">Bootstrap</a>
+            </li>
+            <li>
+                <a href="#">Angular JS</a>
+            </li>
+        </ul>
+    </aside>
+
+</body>
+</html>

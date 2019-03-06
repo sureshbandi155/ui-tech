@@ -1,0 +1,43 @@
+section{
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+button{
+    padding: 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+
+}
+#gm{
+    background-color: blue;
+    color: white;
+}
+#ga{
+    background-color: orangered;
+    color: white;
+}
+#ge{
+    background-color: green;
+    color: white;
+}
+#gn{
+    background-color: black;
+    color: white;
+}
+section img{
+    width: 500px;
+    border-radius: 100px;
+    box-shadow: 0 0 15px black;
+}
+input[type= 'text']{
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}

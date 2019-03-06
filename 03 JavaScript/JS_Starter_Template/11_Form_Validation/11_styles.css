@@ -1,0 +1,34 @@
+body{
+    font-family: "Comic Sans MS",sans-serif;
+}
+#form-div{
+    background-color: lightblue;
+    width: 25%;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+div{
+    padding: 7px;
+
+}
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    outline: none;
+    border: none;
+    height: 30px;
+    padding: 5px;
+}
+#submit{
+    background-color: forestgreen;
+    color: white;
+    font-size: 20px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Form Validation</title>
+    <link rel="stylesheet" href="11_styles.css">
+</head>
+<body>
+
+<div id="form-div">
+    <form onsubmit="return validate()">
+        <h1>Register Here</h1>
+        <div>
+            <input type="text" placeholder="User Name" id="text">
+            <div id="errorText"></div>
+        </div>
+        <div>
+            <input type="email" placeholder="Email" id="email">
+            <div id="emailError"></div>
+        </div>
+        <div>
+            <input type="password" placeholder="password" id="password">
+        </div>
+        <div>
+            <input type="password" placeholder="Confirm Password" id="confirmpass">
+            <div id="errorConfirmps"></div>
+        </div>
+        <div>
+            <input type="submit" name="register" value="register" id="submit">
+        </div>
+
+    </form>
+</div>
+
+<script src="11_script.js"></script>
+</body>
+</html>
