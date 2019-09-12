@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  /* flex-direction: column; row row-reverse */
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.align-items{
+  display: flex;
+  height: 200px;
+  background-color: DodgerBlue;
+  align-items: center;
+  justify-content: center;
+}
+.align-items > div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.align-content{
+  display: flex;
+  height: 600px;
+  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  align-content: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+.align-content > div{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.center{
+  margin-top: 20px;
+  display: flex;
+  background: red;
+  height: 400px;
+  align-items: center;
+
+}
+.center > div{
+  height: 200px;
+  width: 200px;
+  margin: 2px;
+  background: forestgreen;
+}
+.extra{
+  display: flex;
+  background: blue;
+  height: 200px;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  /* align-items: stretch; */
+  /* align-content: flex-end; */
+}
+.extra > div{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 2px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+        <div>5</div>
+
+        <div>6</div>
+
+        <div>7</div>
+
+        <div>8</div>
+
+      </div>
+      <h2>align-items</h2>
+      <div class="align-items">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+        <div>5</div>
+
+        <div>6</div>
+
+        <div>7</div>
+
+        <div>8</div>
+
+      </div>
+      <h2>align-content</h2>
+      <div class="align-content">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+
+        <div>5</div>
+
+        <div>6</div>
+
+        <div>7</div>
+
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+
+
+
+
+      </div>
+      <div class="center">
+<div></div>
+<div></div>
+      </div>
+      <div class="extra">
+<div style="order: 4">1</div>
+<div style="order: 3">2</div>
+<div style="order: 1">3</div>
+<div style="order: 2">4</div>
+
+
+      </div>
+</body>
+</html>

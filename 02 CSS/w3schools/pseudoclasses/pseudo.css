@@ -1,0 +1,29 @@
+/* div p{
+    color: teal;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    display: none;
+} */
+.hide{    color: teal;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    display: none;
+}
+div:hover .hide{
+    display: block;
+    cursor: pointer;
+}
+/* after before */
+/*.before::before {
+    content: 'hello mna';
+}*/
+.before::before {
+    position: absolute;
+    content: '';
+    color: blue;
+    background: url("https://s0.2mdn.net/simgad/6103914729645276752") no-repeat scroll top center /cover;
+    width: 100%;
+    height: 100%;
+}

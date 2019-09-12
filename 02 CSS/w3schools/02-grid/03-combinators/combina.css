@@ -1,0 +1,10 @@
+div > p{
+    color: yellow;
+    background: forestgreen;
+}
+/* div + p {
+    color: red;
+} */
+div ~ p {
+    color: orangered;
+}
